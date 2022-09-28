@@ -1,0 +1,145 @@
+.NavBar{
+    display: flex;
+    padding: 10px 200px;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    border-top: 5px solid  #32CC00;
+    background-color: white;
+}
+
+.NavLeft{
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid gray; */
+    
+   }
+   .NavLeft :hover{
+    cursor: pointer;
+   }
+.NavRight{
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+}
+.NavBar h3{
+    padding: 0px 16px; font-size: 17px;
+    line-height: 120%;
+color:#5c6369;}
+    .diffPages:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-decoration-color: #4ea819;
+        color:  #4ea819}
+.Title{
+    font-size: 27px;
+    font-family: Source Sans Pro,sans-serif;
+    padding: 5px;
+    position: relative;
+    top: 5px;
+    line-height: 120%;
+}
+.TitleLogo{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 10px;
+}
+.NavbarButtons{
+   
+   /* border : 2px solid red; */
+   border: none;
+}
+.LoginButton{
+    font-size: 12px;
+    font-weight: 100;
+    border: 1px solid green;
+   padding: 12px;
+   position: relative;
+   left : -120px;
+   top: 8px;
+   border-radius: 3px;
+}
+.LoginButton:hover{
+    cursor: pointer;
+}
+.SignupButton{
+    background-color: #4ea819;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 14px;
+    position: relative;
+    top: 8px;
+    left: -100px;
+    border: none;
+    border-radius: 3px;
+}
+.SignupButton:hover{
+    cursor: pointer;
+}
+/* Navbar css ends from here */
+/* footer css starts from here */
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 200px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.firstElementinLIst{
+    font-weight: bold;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+li{
+    padding: 05px;
+    color: gray;
+}
+li:hover{
+  /* border-bottom: 1.5px solid black; */
+  text-decoration: underline;
+  cursor: pointer;
+  color: black;
+}
+/* footer ends here */
+/* footer bottom starts here */
+
+.footBottom{
+    padding: 10px 200px;
+    background-color: #EBECEC;
+}
+.footBottomTop{
+    display: flex;
+    justify-content: space-between;
+}
+.appleApp{
+    position: relative;
+    top: 3px;
+}
+#icons{
+    font-size: 30px;
+    padding: 10px;
+    color: gray;
+}
+.iconsList{
+    padding-top: 20px;
+}
+#footerInputBox{
+    height: 30px;
+    width: 200px;
+    border: 2px solid #4ea819 ;
+    font-size: 15px;
+}
+#footerButton{
+    background-color: #4ea819;
+    font-weight: bold;
+    color: white;
+    border: none;
+    padding: 10px;
+    
+    margin: 10px;
+}
