@@ -1,7 +1,11 @@
-import styles from "../CssFiles/HomePageDesign.module.css"
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
+import styles from "../CssFiles/HomePageDesign.module.css";
+
 
 export default function HomePage(){
     return( <>
+      <div> <NavBar/></div>
         <div className= {styles.HomePage} >
             <div className= {styles.HomePage1} >
         <div>
@@ -29,21 +33,21 @@ export default function HomePage(){
             <p className = {styles.p1} >A time tracker and workforce management system that will help you develop a high-performing team that smashes goals every time.</p>
             <div className= {styles.HomePage3ab} >
                 <div>
-                    <h3 className= {styles.HomePage3abh3} > <i  className= {styles.starIcon} class="fa-solid fa-star"></i> Skyrocket effectiveness</h3>
+                    <h3 className= {styles.HomePage3abh3} > <i id = {styles.ABC}  className= {styles.starIcon} class="fa-solid fa-star"></i> Skyrocket effectiveness</h3>
                     <p className= {styles.p3} >Know who's doing what and how it's going all the while eliminating distractions.</p>
                 </div>
                 <div>
-                    <h3 className= {styles.HomePage3abh3} > <i class="fa-solid fa-shield"></i> Minimize business losses</h3>
+                    <h3 className= {styles.HomePage3abh3} > <i id = {styles.ABC} class="fa-solid fa-shield"></i> Minimize business losses</h3>
                     <p className= {styles.p3} >Get precise insights into projects to determine profitability and allocate resources.</p>
                 </div>
             </div>
             <div className= {styles.HomePage3ab} >
                 <div>
-                    <h3 className= {styles.HomePage3abh3} > <i class="fa-solid fa-clock"></i> Automate team management</h3>
+                    <h3 className= {styles.HomePage3abh3} > <i id = {styles.ABC} class="fa-solid fa-clock"></i> Automate team management</h3>
                     <p className= {styles.p3} >Organize shifts, absences, and booking-related questions all in one place.</p>
                 </div>
                 <div>
-                    <h3 className= {styles.HomePage3abh3} > <i class="fa-solid fa-briefcase"></i> Minimize business losses</h3>
+                    <h3 className= {styles.HomePage3abh3} > <i id = {styles.ABC} class="fa-solid fa-briefcase"></i> Minimize business losses</h3>
                     <p className= {styles.p3} >Get precise insights into projects to determine profitability and allocate resources.</p>
                 </div>
             </div>
@@ -58,19 +62,19 @@ export default function HomePage(){
             <div className= {styles.HomePage4b} >
                 <div>
                     <div>
-                    <h2 className= {styles.H2} > <i  className= {styles.starIcon} class="fa-solid fa-star"></i> No more manual time trackers</h2>
+                    <h2 className= {styles.H2} > <i id = {styles.ABC} className= {styles.starIcon} class="fa-solid fa-star"></i> No more manual time trackers</h2>
                     <p className= {styles.p3} >Fully automatic start and end times, no manual entry, and no human error – the <strong className= {styles.Strong2}>automatic time tracker</strong>   starts up as soon as you open the computer and stops when you close it.</p>
                     </div>
                     <div>
-                    <h2 className= {styles.H2} > <i  className= {styles.starIcon} class="fa-solid fa-star"></i> Oversee work progress</h2>
+                    <h2 className= {styles.H2} > <i  className= {styles.starIcon} id = {styles.ABC} class="fa-solid fa-star"></i> Oversee work progress</h2>
                     <p className= {styles.p3} >With<strong className= {styles.Strong2}>URL and document title tracking</strong> it's easy to always be informed about your team's overall progress and habits during work hours.</p>
                     </div>
                     <div>
-                    <h2 className= {styles.H2} > <i className= {styles.starIcon} class="fa-solid fa-briefcase"></i> No more manual time trackers</h2>
+                    <h2 className= {styles.H2} > <i className= {styles.starIcon} id = {styles.ABC} class="fa-solid fa-briefcase"></i> No more manual time trackers</h2>
                     <p className= {styles.p3} >Estimate project costs, assign hourly rates, issue invoices, and control expenses. <strong className= {styles.Strong2}>Project management</strong>    is easy when you have a birdseye view of all ongoing processes.</p>
                     </div>
                     <div>
-                    <h2 className= {styles.H2} > <i className= {styles.starIcon} class="fa-solid fa-briefcase"></i> Run your office smoothly</h2>
+                    <h2 className= {styles.H2} > <i className= {styles.starIcon} id = {styles.ABC} class="fa-solid fa-briefcase"></i> Run your office smoothly</h2>
                     <p className= {styles.p3} >DeskTime isn't just a time tracker. You can assign <strong className= {styles.Strong2}>shifts</strong> and oversee  <strong className= {styles.Strong2}>absence</strong>, stay informed about remote workers and run a hybrid office all on one platform.</p>
                     </div>
 
@@ -126,19 +130,19 @@ export default function HomePage(){
             <div>
                 <h1 className = {styles.HomePage5H1} >A seamless workflow and healthy work-life balance for every employee</h1>
                 <div>
-                    <h2 className= {styles.H2}> <i className= {styles.starIcon} class="fa-solid fa-briefcase"></i> Flexible schedule</h2>
+                    <h2 className= {styles.H2}> <i className= {styles.starIcon} id = {styles.ABC} class="fa-solid fa-briefcase"></i> Flexible schedule</h2>
                     <p className= {styles.p3} >Time tracking is proof-of-work and DeskTime's time tracker gives you just that – you can plan your schedule independently, while your manager can simply follow your progress no matter where you are and when you choose to work.</p>
                     </div>
                     <div>
-                    <h2 className= {styles.H2}> <i className= {styles.starIcon} class="fa-solid fa-briefcase"></i> Regular break reminders</h2>
+                    <h2 className= {styles.H2}> <i className= {styles.starIcon} id = {styles.ABC} class="fa-solid fa-briefcase"></i> Regular break reminders</h2>
                     <p className= {styles.p3} >Our time tracker uses the  <strong className= {styles.Strong2}>Pomodoro timer</strong> that will keep a cautious eye on your workload and remind you to take regular breaks so you don't lose focus all the while maintaining healthy habits and mental well-being.</p>
                     </div>
                     <div>
-                    <h2 className= {styles.H2}> <i className= {styles.starIcon} class="fa-solid fa-briefcase"></i> Private time</h2>
+                    <h2 className= {styles.H2}> <i id = {styles.ABC} className= {styles.starIcon} class="fa-solid fa-briefcase"></i> Private time</h2>
                     <p className= {styles.p3} >DeskTime's<strong className= {styles.Strong2}>Private time</strong>  feature disables the website and time tracker for when you have to take care of non-work-related tasks during office hours. Employees can feel safe knowing their privacy is protected.</p>
                     </div>
                     <div>
-                    <h2 className= {styles.H2}> <i className= {styles.starIcon} class="fa-solid fa-briefcase"></i> No more unbilled hours</h2>
+                    <h2 className= {styles.H2}> <i className= {styles.starIcon} id = {styles.ABC} class="fa-solid fa-briefcase"></i> No more unbilled hours</h2>
                     <p className= {styles.p3} >Employee time is pure gold when it comes to resource planning. DeskTime's time tracker even lets you add <strong className= {styles.Strong2}>time spent offline</strong>   like in meetings, brainstorms, or on work calls so no billable hours go unnoticed.</p>
                     </div>
                     <p>All the features can be turned on and off to suit eveyone's needs</p>
@@ -155,6 +159,25 @@ export default function HomePage(){
                     <button className= {styles.button3} >READ MORE</button>
             </div>
         </div>
+        <div className= {styles.HomePage7} >
+            <h1 className= {styles.HomePage7h1}> A single time tracking app for desktops and mobile phones</h1>
+            <p> Whether in the office or on the go – use DeskTime to keep track of your and your team's time.</p>
+            <div className= {styles.HomePage7a} >
+                 <div>
+                    <img src="/static/web/new-homepage/desktop/desktop.webp" alt="" />
+                    <h1 className= {styles.HomePage7ah1} >DeskTime for desktops</h1>
+                    <i id = {styles.icon} class="fa-brands fa-windows"></i>
+                    <i id = {styles.icon} class="fa-brands fa-apple"></i>
+                    <i id = {styles.icon} class="fa-brands fa-android"></i>
+                    
+                    <ul>
+                    <h3>Requires download and installation</h3>
+                        <li> <i id = {styles.ABC} class="fa-solid fa-check"></i> Fully automated time tracker</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+        <div><Footer/></div>
         </>
     )
 }
