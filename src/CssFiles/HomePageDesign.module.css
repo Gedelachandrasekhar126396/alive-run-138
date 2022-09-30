@@ -1,0 +1,200 @@
+.HomePage{
+    padding: 40px 200px;
+   
+}
+.TheUltimate{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    /* padding: 20px; */
+    font-weight: bolder;
+    color: 	#303030;
+}
+.HomePage1{ display: flex;
+    justify-content: space-between;}
+#video{
+    width: 550px;
+    height: 310px;
+}
+.p1{
+    font-size: 17px;
+    line-height: 30px;
+}
+.p2{
+    font-size: 15px;
+    color: gray;
+}
+.HomePage1a{
+    padding: 10px;
+}
+#input1{
+    width: 270px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 200;
+    margin: 10px;
+    border-radius: 4px;
+}
+.button1{
+    width: 200px;
+    height: 46px;border: none; border-radius: 4px;
+    background-color:#4ea819 ;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+.button1:hover{cursor: pointer;
+background-color: green;}
+.Strong1{
+    color: #585858;
+    text-decoration: underline;
+}
+.Strong1:hover{
+    color: black;
+}
+.HomePage2{
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.HomePage3{
+    display: flex;
+}
+.HomePage3a{padding-right: 80px;}
+.HomePage3aH1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    /* padding: 20px; */
+    font-weight: bolder;
+    color: 	#303030;
+    color: #484848;
+}
+.starIcon{
+    background-color: green;
+}
+.HomePage3ab{display: flex;
+justify-content: space-between;}
+.p3{
+    padding: 10px;
+    line-height: 25px;
+    padding-right: 20px;
+    font-size: 17px;
+    position: relative;
+    top: -8px;
+}
+.HomePage3abh3{
+    color: #484848;
+}
+.HomePage4{ background-color: #E8E8E8;
+padding: 20px 0px;}
+.HomePage4a{
+    text-align: center;
+    color: 	#282828;
+    width: 50%;
+    margin: auto;font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    padding-top: 60px;
+}
+.p4{
+    text-align: center;
+    padding-top: 14px;
+    width: 50%;
+    margin: auto;
+    line-height: 35px;
+    font-size: 17px;
+    color: 	#282828;
+}
+.p5{ font-size: 17px;
+    color: #282828;
+}
+.HomePage4b{
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.H2{
+    color: 	#282828;
+}
+.Strong2{
+    text-decoration: underline;
+    /* font-weight: 600; */
+    color: #484848;
+}
+.Strong2:hover{
+    color: black;
+    cursor: pointer;
+}
+.Image2{
+    padding-top: 150px;
+}
+.certainButtons{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+    padding: 10px 0px;
+    
+}
+.certainButtons2{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin: auto;
+    padding: 10px 0px;
+}
+.Buttons{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: none;
+    color: #484848;
+}
+.Buttons:hover{
+    color: black;
+}
+.Buttons3{
+    text-align: center;
+    padding: 30px;
+
+}
+.Buttons2{
+    font-size: 17px;
+ font-weight: bold;
+    padding: 10px 20px;
+}
+.HomePage5,.HomePage6{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 200px;
+}
+.HomePage6{
+    background-color: #F5F5F5;
+    padding: 10px 200px;
+}
+.HomePage6a{
+    background-color: 	#F5F5F5;
+}
+.HomePage5H1{
+    font-size: 35px;
+    color: #484848;
+    line-height: 50px;
+}
+.HomePage6b{
+    padding-right: 20px;
+}
+.button3{
+    font-size: 18px;
+    background-color:white ;
+    padding: 15px 20px;
+    border: 0.3px solid gray;
+    font-weight: bold;
+    color: #484848;
+    border-radius: 3px;
+}
+.button3:hover{
+    cursor: pointer;
+    color:#484848 ;
+}

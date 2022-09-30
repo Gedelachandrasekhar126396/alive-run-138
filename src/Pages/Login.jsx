@@ -1,23 +1,19 @@
 import styles from "../CssFiles/SignUpDesign.module.css";
 
-export default function SignUpPage(){
+export default function LoginPage(){
     return (
         <div className= {styles.SignUpPage} >
-            <h1>Sign up for a FREE DeskTime trial</h1>
-            <p className= {styles.Para} >Start tracking your productivity in less than a minute!</p>
+            <h1>Log in to DeskTime</h1>
+            
             <form id = {styles.signUpBox} >
-                
-            <span className= {styles.inputPara}  >First and last name</span>   
-             <input placeholder="Type in your first and last name" className= {styles.signUpInput} />
              <span className= {styles.inputPara}  >Email</span>   
              <input placeholder="Type in your email address" className= {styles.signUpInput} />
              <span className= {styles.inputPara}  >Password</span>   
-             <input placeholder="Create a password" className= {styles.signUpInput} />
-             <input type="submit" value = "SIGN UP FOR FREE" className= {styles.signUpButton} />
+             <input placeholder="Type in your  password" className= {styles.signUpInput} />
+             <input type="submit" value = "LOGIN" className= {styles.signUpButton} />
             </form>
-            <p className= {styles.Para}>Try free for 14 days. No credit card required.</p>
-            <p className= {styles.Para} >By signing up, you agree to our  <strong className= {styles.Strong} >terms</strong> and <strong className= {styles.Strong} >privacy.</strong> <br/>
-            <strong className= {styles.Strong} >policy.</strong> </p>
+            <h4 className= {styles.Strong3} >I forgot my password</h4>
+            <p> <span>Don't have any account yet?</span> <strong className= {styles.Strong2} >Sign up here!</strong> </p>
             <div className= {styles.socialMedia} >
                 <h5>Or connect with</h5>
                 <div>
@@ -29,7 +25,7 @@ export default function SignUpPage(){
 
                 </div>
             </div>
-           <p> <span>Are you already registered?</span> <strong className= {styles.Strong2} >Log in here</strong> </p>
+          
 
         </div>
     )
