@@ -1,7 +1,10 @@
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 import styles from "../CssFiles/SignUpDesign.module.css";
 
 export default function LoginPage(){
-    return (
+    return (<>
+    <NavBar/>
         <div className= {styles.SignUpPage} >
             <h1>Log in to DeskTime</h1>
             
@@ -28,7 +31,8 @@ export default function LoginPage(){
           
 
         </div>
-    )
+        <Footer/>
+        </> )
 
     
 }

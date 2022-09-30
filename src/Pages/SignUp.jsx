@@ -1,7 +1,10 @@
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 import styles from "../CssFiles/SignUpDesign.module.css";
 
 export default function SignUpPage(){
-    return (
+    return (<>
+    <NavBar/>
         <div className= {styles.SignUpPage} >
             <h1>Sign up for a FREE DeskTime trial</h1>
             <p className= {styles.Para} >Start tracking your productivity in less than a minute!</p>
@@ -32,7 +35,8 @@ export default function SignUpPage(){
            <p> <span>Are you already registered?</span> <strong className= {styles.Strong2} >Log in here</strong> </p>
 
         </div>
-    )
+        <Footer/>
+   </> )
 
     
 }

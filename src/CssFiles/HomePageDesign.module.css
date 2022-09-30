@@ -18,6 +18,7 @@
 .p1{
     font-size: 17px;
     line-height: 30px;
+    text-align: left;
 }
 .p2{
     font-size: 15px;
@@ -67,6 +68,7 @@ background-color: green;}
     font-weight: bolder;
     color: 	#303030;
     color: #484848;
+    text-align: left;
 }
 .starIcon{
     background-color: green;
@@ -79,7 +81,7 @@ justify-content: space-between;}
     padding-right: 20px;
     font-size: 17px;
     position: relative;
-    top: -8px;
+    top: -8px;text-align: left;
 }
 .HomePage3abh3{
     color: #484848;
@@ -181,6 +183,7 @@ padding: 20px 0px;}
     font-size: 35px;
     color: #484848;
     line-height: 50px;
+    text-align: left;
 }
 .HomePage6b{
     padding-right: 20px;
@@ -197,4 +200,39 @@ padding: 20px 0px;}
 .button3:hover{
     cursor: pointer;
     color:#484848 ;
+}
+.HomePage7{
+    padding: 20px 200px;
+}
+.HomePage7h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    /* padding: 20px; */
+    font-weight: bolder;
+    color: 	#303030;
+    /* color: #484848; */
+    width: 60%;
+    margin: auto;
+}
+.p6{
+    text-align: center;
+    font-size: 13px
+}
+.HomePage7a{
+    display: flex;
+    justify-content: space-between;
+}
+.HomePage7ah1{
+    font-size: 30px;
+  color: #303030;
+  word-spacing: normal;
+}
+#icon{
+    font-size: 30px;
+    color: gray;
+    padding: 0px 10px;
+}
+#ABC{
+    color: #4ea819;
 }
