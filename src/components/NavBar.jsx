@@ -1,4 +1,5 @@
-import styles from "../CssFiles/NavbarDesign.module.css"
+import styles from "../CssFiles/NavbarDesign.module.css";
+import {NavLink} from "react-router-dom"
 export default function NavBar(){
     return <>
        <div className= {styles.NavBar} >
@@ -16,7 +17,8 @@ export default function NavBar(){
         </div>
         
         <div className= {styles.NavbarButtons} >
-        <button className = {styles.LoginButton} >LOGIN</button>
+    
+        <button className = {styles.LoginButton}  > <NavLink to="./Pages/Login.jsx" >LOGIN</NavLink> </button>
         <button className = {styles.SignupButton} >SIGN UP</button>
         </div>
 
