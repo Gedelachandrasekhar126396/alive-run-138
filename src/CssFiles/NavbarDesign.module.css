@@ -62,9 +62,11 @@ color:#5c6369;}
    left : -120px;
    top: 8px;
    border-radius: 3px;
+   background-color: white;
 }
 .LoginButton:hover{
     cursor: pointer;
+    background-color: #F0F0F0;
 }
 .SignupButton{
     background-color: #4ea819;
@@ -80,6 +82,7 @@ color:#5c6369;}
 }
 .SignupButton:hover{
     cursor: pointer;
+    background-color: green;
 }
 /* Navbar css ends from here */
 /* footer css starts from here */
@@ -87,6 +90,7 @@ color:#5c6369;}
     display: flex;
     justify-content: space-evenly;
     padding: 0 200px; box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 80px;
 }
 .firstElementinLIst{
     font-weight: bold;
