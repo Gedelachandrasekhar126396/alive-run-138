@@ -9,7 +9,7 @@ export default function NavBar(){
       <strong className= {styles.Title} >DeskTime</strong>
        </div></NavLink>
        <div className= {styles.NavRight} > 
-        <h3 className= {styles.diffPages} >Demo</h3>
+       <NavLink to="/demo" style ={{color: "black", textDecoration: "none"}} > <h3 className= {styles.diffPages} >Demo</h3></NavLink>
         <h3 className= {styles.diffPages} >Features</h3>
         <h3 className= {styles.diffPages} >Pricing</h3>
         <h3 className= {styles.diffPages} >About us</h3>
