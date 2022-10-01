@@ -170,10 +170,46 @@ export default function HomePage(){
                     <i id = {styles.icon} class="fa-brands fa-apple"></i>
                     <i id = {styles.icon} class="fa-brands fa-android"></i>
                     
-                    <ul>
+                    <ul className= {styles.unlisted}>
                     <h3>Requires download and installation</h3>
-                        <li> <i id = {styles.ABC} class="fa-solid fa-check"></i> Fully automated time tracker</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Fully automated time tracker</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> App URL & Document title tracking</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Project and task tracking</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Screenshots</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Idle and Private time</li>
                     </ul>
+                    <button className= {styles.learnMoreButton} >Learn More</button>
+                 </div>
+
+                 <div>
+                    <img src="/static/web/new-homepage/desktop/desktop.webp" alt="" />
+                    <h1 className= {styles.HomePage7ah1} >DeskTime for mobile phones</h1>
+                    <i id = {styles.icon} class="fa-brands fa-apple"></i>
+                    <i id = {styles.icon} class="fa-brands fa-android"></i>
+                    
+                    <ul className= {styles.unlisted} >
+                    <h3>Requires download and installation</h3>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i>Manual time tracker</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Workday overview</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Project and task tracking</li>
+                    </ul>
+                    <button className= {styles.learnMoreButton} >Learn More</button>
+                 </div>
+
+                 <div>
+                    <img src="/static/web/new-homepage/desktop/desktop.webp" alt="" />
+                    <h1 className= {styles.HomePage7ah1} >Manula time tracking</h1>
+                     <p>Supported onall popular browsers</p>
+                    
+                    <ul className= {styles.unlisted}>
+                    <h3>No software installation necessary</h3>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Fully automated time tracker</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> App URL & Document title reacking</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Project and task tracking</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Screenshots</li>
+                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Idle and Private time</li>
+                    </ul>
+                    <button className= {styles.learnMoreButton} >Learn More</button>
                  </div>
             </div>
         </div>
