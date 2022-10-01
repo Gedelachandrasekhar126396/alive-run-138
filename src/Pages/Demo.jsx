@@ -99,7 +99,32 @@ export default function DemoPage(){
             <img id = {styles.Image2} src="https://desktime.com/static/web/demo/yt-dt-teams.png" alt="" />
         </div>
         </div>
-
+        <div>
+            <img style ={{width: "1516px", paddingTop : "10px"}} src="https://user-images.githubusercontent.com/107903370/193411441-91e22c73-60a3-4b58-9e38-41c0aa0ed4b4.png" alt="" />
+        </div>
+        <div className= {styles.DemoPage4} >
+        <div className= {styles.HomePage1a} >
+            <img src="https://desktime.com/static/web/demo/notebook.png" alt="" />
+        </div>
+        <div>
+            <h1 className= {styles.TheUltimate}  style ={{textAlign: "left"}} >Not convinced yet?  <br/>Check out our self-guided demo </h1>
+            <p className = {styles.p1} >If you want the full scope of what you’re getting once you sign up, visit our demo account. You can try out all the features DeskTime has to offer.</p>
+            <button className= {styles.button1} >DEMO ACCOUNT</button>
+            
+            
+        </div>
+        
+        </div>
+        <div className= {styles.HomePage8} >
+            <h3 className= {styles.HomePage8h3} >Want to get the most out of your time?</h3>
+            <h3 className= {styles.HomePage8h3} >Try DeskTime for free! </h3>
+            <div>
+            <input type="text" name="" id= {styles.input1} placeholder= "Your work email"  />
+            <button className= {styles.button1} id = {styles.button4}  >START FREE TRAIL</button>
+            <p className= {styles.p2} id ={styles.p6} >Try free for 14 days. No credit card required.</p>
+            <p className= {styles.p2} id ={styles.p6} >By signing up, you agree to our <strong className= {styles.Strong1} style = {{color: "white"}} >terms</strong> and <strong className= {styles.Strong1}  style = {{color: "white"}} >private policy.</strong> </p>
+            </div>
+        </div>
     <Footer/>
     </>
 }

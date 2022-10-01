@@ -101,3 +101,52 @@
         padding-top: 100px;
         
     }
+    .HomePage8{
+        background-color: #4ea819;
+        text-align: center;
+        color: white;
+        padding: 25px;
+        font-family: SFMono-Bold,Menlo,Monaco,Consolas,"Liberation Mono","Courier New";
+       
+    }
+    .HomePage8h3{
+        font-size: 32px;
+        font-weight: 900;
+    }
+    #input1{
+        width: 270px;
+        height: 40px;
+        font-size: 18px;
+        font-weight: 200;
+        margin: 10px;
+        border-radius: 4px;
+    }
+    .button1{
+        width: 200px;
+        height: 46px;border: none; border-radius: 4px;
+        background-color:#4ea819 ;
+        color: white;
+        font-weight: bold;
+        padding: 5px;
+    }
+    #button4{font-size: 18px; padding : 15px; border:1px solid white;
+        width: 250px;
+    }
+    #button4:hover{
+        color: black;
+        background-color: white;
+    }
+    #p6{
+        color: white;
+        font-size: 17px;
+    }
+    .button1:hover{cursor: pointer;
+        background-color: green;}
+        .Strong1{
+            color: #585858;
+            text-decoration: underline;
+        }
+        .Strong1:hover{
+            color: black;
+            cursor: pointer;
+        }
