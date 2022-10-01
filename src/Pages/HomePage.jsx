@@ -161,10 +161,10 @@ export default function HomePage(){
         </div>
         <div className= {styles.HomePage7} >
             <h1 className= {styles.HomePage7h1}> A single time tracking app for desktops and mobile phones</h1>
-            <p> Whether in the office or on the go – use DeskTime to keep track of your and your team's time.</p>
+            <p className= {styles.p6}> Whether in the office or on the go – use DeskTime to keep track of your and your team's time.</p>
             <div className= {styles.HomePage7a} >
                  <div>
-                    <img src="/static/web/new-homepage/desktop/desktop.webp" alt="" />
+                 <img src="https://desktime.com/static/web/new-homepage/desktop/desktop.webp" alt="forDesktops" />
                     <h1 className= {styles.HomePage7ah1} >DeskTime for desktops</h1>
                     <i id = {styles.icon} class="fa-brands fa-windows"></i>
                     <i id = {styles.icon} class="fa-brands fa-apple"></i>
@@ -182,7 +182,7 @@ export default function HomePage(){
                  </div>
 
                  <div>
-                    <img src="/static/web/new-homepage/desktop/desktop.webp" alt="" />
+                   <img src="https://desktime.com/static/web/new-homepage/mobile/mobile.webp" alt="mobilePhones" />
                     <h1 className= {styles.HomePage7ah1} >DeskTime for mobile phones</h1>
                     <i id = {styles.icon} class="fa-brands fa-apple"></i>
                     <i id = {styles.icon} class="fa-brands fa-android"></i>
@@ -197,20 +197,28 @@ export default function HomePage(){
                  </div>
 
                  <div>
-                    <img src="/static/web/new-homepage/desktop/desktop.webp" alt="" />
-                    <h1 className= {styles.HomePage7ah1} >Manula time tracking</h1>
-                     <p>Supported onall popular browsers</p>
+                    <img src="https://desktime.com/static/web/new-homepage/webtimer/webtimer.webp" alt="manualTimetracking" />
+                    <h1 className= {styles.HomePage7ah1} >Manual time tracking</h1>
+                     <p className= {styles.p5} >Supported on all popular browsers</p>
                     
                     <ul className= {styles.unlisted}>
                     <h3>No software installation necessary</h3>
                  <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Fully automated time tracker</li>
                  <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> App URL & Document title reacking</li>
                  <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Project and task tracking</li>
-                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Screenshots</li>
-                 <li className = {styles.List} > <i id = {styles.DEF} class="fa-solid fa-check"></i> Idle and Private time</li>
                     </ul>
                     <button className= {styles.learnMoreButton} >Learn More</button>
                  </div>
+            </div>
+        </div>
+        <div className= {styles.HomePage8} >
+            <h3 className= {styles.HomePage8h3} >Want to get the most out of your time?</h3>
+            <h3 className= {styles.HomePage8h3} >Try DeskTime for free! </h3>
+            <div>
+            <input type="text" name="" id= {styles.input1} placeholder= "Your work email"  />
+            <button className= {styles.button1} id = {styles.button4}  >START FREE TRAIL</button>
+            <p className= {styles.p2} id ={styles.p6} >Try free for 14 days. No credit card required.</p>
+            <p className= {styles.p2} id ={styles.p6} >By signing up, you agree to our <strong className= {styles.Strong1} style = {{color: "white"}} >terms</strong> and <strong className= {styles.Strong1}  style = {{color: "white"}} >private policy.</strong> </p>
             </div>
         </div>
         <div><Footer/></div>
