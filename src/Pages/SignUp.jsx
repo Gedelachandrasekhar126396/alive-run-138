@@ -1,21 +1,43 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import styles from "../CssFiles/SignUpDesign.module.css";
+import {useState} from "react"
+import { NavLink } from "react-router-dom";
 
 export default function SignUpPage(){
+    const formObj = {
+        userName : "",
+        Email : "",
+        Password : ""
+    };
+    const [data,setData] = useState(formObj);
+    const [users,setUsers] = useState([]);
+    const handleChange = (e)=>{
+        setData({...data,[e.target.name]: e.target.value})
+    }
+    console.log(data)
+    const handleSubmit = (e)=>{
+        e.preventDefault();
+        let arr = [...users,data];
+        setUsers(arr);
+        alert("Signup Successful!")
+        
+    }
+    console.log(users)
+
     return (<>
     <NavBar/>
         <div className= {styles.SignUpPage} >
-            <h1>Sign up for a FREE DeskTime trial</h1>
+            <h1 className= {styles.SignUpPageh1}>Sign up for a FREE DeskTime trial</h1>
             <p className= {styles.Para} >Start tracking your productivity in less than a minute!</p>
-            <form id = {styles.signUpBox} >
+            <form id = {styles.signUpBox} onSubmit = {handleSubmit} >
                 
             <span className= {styles.inputPara}  >First and last name</span>   
-             <input placeholder="Type in your first and last name" className= {styles.signUpInput} />
+             <input placeholder="Type in your first and last name" className= {styles.signUpInput} type = "text" name = "userName" value = {data.userName} onChange = {handleChange} />
              <span className= {styles.inputPara}  >Email</span>   
-             <input placeholder="Type in your email address" className= {styles.signUpInput} />
+             <input placeholder="Type in your email address" className= {styles.signUpInput} type = "email" name = "Email" onChange = {handleChange} />
              <span className= {styles.inputPara}  >Password</span>   
-             <input placeholder="Create a password" className= {styles.signUpInput} />
+             <input placeholder="Create a password" className= {styles.signUpInput} type = "password" name = "Password" onChange = {handleChange} />
              <input type="submit" value = "SIGN UP FOR FREE" className= {styles.signUpButton} />
             </form>
             <p className= {styles.Para}>Try free for 14 days. No credit card required.</p>
@@ -32,7 +54,7 @@ export default function SignUpPage(){
 
                 </div>
             </div>
-           <p> <span>Are you already registered?</span> <strong className= {styles.Strong2} >Log in here</strong> </p>
+           <p> <span>Are you already registered?</span> <NavLink to="/login" ><strong className= {styles.Strong2} >Log in here</strong></NavLink> </p>
 
         </div>
         <Footer/>
